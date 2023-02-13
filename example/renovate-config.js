@@ -7,7 +7,7 @@ module.exports = {
       hostType: 'npm',
       matchHost: 'pkgs.dev.azure.com',
       username: 'apikey',
-      password: process.env.TOKEN,
+      password: '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',
     },
   ],
   repositories: ['keerthanakt94/Main'],
