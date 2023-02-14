@@ -11,4 +11,4 @@ steps:
       git config --global user.name 'Renovate Bot'
       npx --userconfig .npmrc renovate
     env:
-      TOKEN: $(System.AccessToken)
+      TOKEN: $(Renovate)
