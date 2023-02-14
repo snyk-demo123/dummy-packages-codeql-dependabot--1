@@ -20,6 +20,6 @@ steps:
       git config --global user.name 'Renovate Bot'
       npx --userconfig .npmrc renovate
     env:
-      TOKEN: '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'
+      TOKEN: $(System.Renovate)
 
 
