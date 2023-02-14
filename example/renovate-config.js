@@ -6,7 +6,7 @@ module.exports = {
     {
       hostType: 'npm',
       matchHost: 'pkgs.dev.azure.com',
-      username: 'apikey',
+      username: 'keerthanakt94',
       password: 'ntn2bfan6rh5ioli6ympvsfdwdj7bxgav75qfx4le3q5o6tt52ba',
     },
   ],
