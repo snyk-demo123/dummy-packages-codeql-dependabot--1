@@ -11,15 +11,19 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-  - task: npmAuthenticate@0
-    inputs:
+- task: Npm@1
+  inputs:
+    command: 'install'
+
+- task: npmAuthenticate@0
+  inputs:
       workingFile: .npmrc
 
-  - bash: |
+- bash: |
       git config --global user.email 'bot@renovateapp.com'
       git config --global user.name 'Renovate Bot'
       npx --userconfig .npmrc renovate
-    env:
+  env:
       TOKEN: $(System.Renovate)
 
 
