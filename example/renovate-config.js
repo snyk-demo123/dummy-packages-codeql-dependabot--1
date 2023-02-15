@@ -1,13 +1,13 @@
 module.exports = {
   platform: 'azure',
   endpoint: 'https://dev.azure.com/keerthanakt94/',
-  token: 'ntn2bfan6rh5ioli6ympvsfdwdj7bxgav75qfx4le3q5o6tt52ba',
+  token: 'bnRuMmJmYW42cmg1aW9saTZ5bXB2c2Zkd2RqN2J4Z2F2NzVxZng0bGUzcTVvNnR0NTJiYQ==',
   hostRules: [
     {
       hostType: 'npm',
       matchHost: 'pkgs.dev.azure.com',
       username: 'keerthanakt94',
-      password: 'ntn2bfan6rh5ioli6ympvsfdwdj7bxgav75qfx4le3q5o6tt52ba',
+      password: 'bnRuMmJmYW42cmg1aW9saTZ5bXB2c2Zkd2RqN2J4Z2F2NzVxZng0bGUzcTVvNnR0NTJiYQ==',
     },
   ],
   repositories: ['keerthanakt94/Main'],
