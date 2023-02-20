@@ -38,7 +38,6 @@ steps:
 - bash: |
       git config --global user.email 'ajit.d.darade@gmail.com'
       git config --global user.name 'ajitdarade'
-      curl -H 'Authorization: token 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' https://github.com/
       npx --userconfig .npmrc renovate
   env:
       TOKEN: $(Renovate)
