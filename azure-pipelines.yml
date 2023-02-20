@@ -36,11 +36,11 @@ steps:
       workingFile: .npmrc
 
 - bash: |
-      git config --global user.email 'keerthanakt.94@gmail.com'
-      git config --global user.name 'keerthanakt1'
+      git config --global user.email 'ajit.d.darade@gmail.com'
+      git config --global user.name 'ajitdarade'
       npx --userconfig .npmrc renovate
   env:
-      TOKEN: $(System.Renovate)
+      TOKEN: $(Renovate)
 
 
 
