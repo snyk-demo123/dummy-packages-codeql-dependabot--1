@@ -1,5 +1,5 @@
 module.exports = {
-  platform: 'azure',
+  platform=azure,
   endpoint: 'https://dev.azure.com/ajitddarade/',
   token: process.env.TOKEN,
   hostRules: [
