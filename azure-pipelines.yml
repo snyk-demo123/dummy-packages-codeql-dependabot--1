@@ -36,8 +36,8 @@ steps:
       workingFile: .npmrc
 
 - bash: |
-      git config --global user.email 'bot@renovateapp.com'
-      git config --global user.name 'Renovate Bot'
+      git config --global user.email 'keerthanakt.94@gmail.com'
+      git config --global user.name 'keerthanakt1'
       npx --userconfig .npmrc renovate
   env:
       TOKEN: $(System.Renovate)
