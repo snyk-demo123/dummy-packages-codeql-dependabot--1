@@ -19,7 +19,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: 'docker run --rm -v $(Pipeline.Workspace)/example/renovate-config.js:/usr/src/app/config.js:rw renovate/renovate'
-    workingDirectory: '$(Pipeline.Workspace)'
+
 - task: NodeTool@0
   inputs:
     versionSource: 'spec'
