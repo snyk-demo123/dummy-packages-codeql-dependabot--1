@@ -10,5 +10,5 @@ module.exports = {
       password: process.env.TOKEN,
     },
   ],
-  repositories: ['ajitddarade/Main'],
+  repositories: ['snyk-demo123/dummy-packages-codeql-dependabot--1'],
 };
