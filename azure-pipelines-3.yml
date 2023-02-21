@@ -14,6 +14,7 @@ steps:
   - bash: |
       git config --global user.email 'bot@renovateapp.com'
       git config --global user.name 'Renovate Bot'
+      npm login ajitddarade betfqjfzf5vk6sstksu3q745v4kep4txktm6frx2eaavfwefteva pkgs.dev.azure.com/snyk-demo123/Main/_packaging/SecurityTesting/npm/registry
       npm exec --userconfig .npmrc renovate      
     env:
       TOKEN: $(System.AccessToken)
